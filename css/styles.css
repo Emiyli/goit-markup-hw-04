@@ -1,0 +1,407 @@
+/* ============ COMMON STYLES ============ */
+ul,
+ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color: #434455;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;  
+    margin: 0 auto;
+    
+    
+}
+/*.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}  */
+   
+
+/* ============ HEADER STYLES ============ */
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.page-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    color: #4d5ae5;
+    margin-right: 76px
+    }
+
+.text-color {
+    color: #2e2f42;
+}
+.menu {
+    display: flex;
+    gap: 40px;  
+   }
+.menu-link:hover,
+.menu-link:focus { 
+    color: #404bbf;   
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42; 
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+   }
+    
+
+.contacts {
+    font-style: normal;
+    gap: 40px;
+   
+   
+    
+}
+
+.contacts-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    
+}
+.contacts-link {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+    
+    .contacts-link:hover,
+    .contacts-link:focus {
+    color: #404bbf;
+    }
+
+/* ============ HERO STYLES ============ */
+
+.hero-section {
+   padding: 188px 0; 
+   background: #2e2f42;
+}   
+
+
+.hero-container {
+    
+   
+   
+    }
+
+.main-title {
+    margin: 0 auto 48px auto;
+    margin-bottom: 48px;
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    background: #2e2f42;
+   } 
+
+.buy-now-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+      
+}
+.buy-now-btn:hover,
+.buy-now-btn:focus {
+    background: #404bbf;
+}
+
+
+/*============EFFECTIVE SOLUTIONS STYLES==========*/
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .advantages-section{
+    padding: 120px 0 120px;
+  }
+
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
+
+.advantages-list-item {
+    width: calc((100% - 72px) / 4);
+    
+}
+  .advantages-container {
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+.advantages-list-title {
+    /*padding-bottom: 8px;*/
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+
+ }
+.advantages-list-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*============Our Team STYLES============*/
+
+.experts {
+    
+}
+
+.experts-section{
+   padding: 120px 0 120px; 
+   background-color: #F4F4FD;  
+}
+
+.experts-list{
+    display: flex;
+    gap: 24px; 
+   
+}
+
+.experts-list-item {
+    background-color: #FFFFFF;
+  
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 3 * 24px) / 4); 
+    margin: 0;
+    padding: 0;
+}
+
+.experts-section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+ }
+
+ .name-experts {
+    padding: 32px 0; 
+ }
+
+.experts-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    
+    margin-bottom: 8px;
+    
+
+   }
+
+.experts-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+   
+    }
+
+ 
+    
+ }
+/*============Portfolio STYLES============*/
+
+.portfolio-container {
+  
+}
+
+.portfolio-section{
+    padding: 120px 0 120px 0;   
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+    margin-bottom: 8px
+   
+}
+
+.portfolio-addition {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+ 
+}
+
+.portfolio-list-item {
+   /*border-top: none;*/
+   /*border-bottom: 1px solid #e7e9fc;*/
+   width: calc((100% - 48px) / 3);
+}
+
+.portfolio-section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    
+}
+
+.portfolio-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px; 
+}
+
+.portfolio-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+
+}
+
+.portfolio-list-img {
+    display: block;
+}
+
+/* ============FOOTER STYLES============*/
+
+.page-footer {
+    padding: 100px 0; 
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-top: 120px; */
+}
+
+.page-footer-container {
+ 
+    
+}
+
+.page-footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    max-width: 264px; 
+    
+}
+.footer-page-logo {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5; 
+    display: inline-block;
+    margin-bottom: 16px; 
+}
+
+.page-footer {
+    background: #2e2f42;
+}
+.footer-text-color {
+    color: #f4f4fd ;
+    
+}
