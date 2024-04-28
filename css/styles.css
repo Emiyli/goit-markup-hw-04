@@ -102,7 +102,7 @@ img {
    color: #404bbf;
 }    
 .current ::after {
-    display: flex;
+    display: block;
     content: "";
     position: absolute;
     left: 0;
