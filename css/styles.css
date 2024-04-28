@@ -41,10 +41,7 @@ img {
     
     
 }
-/*.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}  */
+
    
 
 /* ============ HEADER STYLES ============ */
@@ -97,15 +94,29 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
-    
+
+.current {
+   position: relative;
+   color: #404bbf;
+}    
+.current ::after {
+    display: flex;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    }
 
 .contacts {
     font-style: normal;
     gap: 40px;
-   
-   
-    
+          
 }
 
 .contacts-item {
@@ -115,7 +126,7 @@ img {
     
 }
 .contacts-link {
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -126,13 +137,16 @@ img {
     .contacts-link:hover,
     .contacts-link:focus {
     color: #404bbf;
+   
     }
 
 /* ============ HERO STYLES ============ */
 
 .hero-section {
    padding: 188px 0; 
-   background: #2e2f42;
+   background: rgba(46, 47, 66, 0.7);
+   background-image: url(/images/hero\ people-office\ 1.jpg), url(/images/Dark-bg.jpg);
+    background-size: cover;
 }   
 
 
@@ -151,7 +165,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    background: #2e2f42;
+    
    } 
 
 .buy-now-btn {
