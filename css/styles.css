@@ -456,5 +456,32 @@ img {
 }
 .footer-text-color {
     color: #f4f4fd ;
-    
+    line-height: 24px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.social-media-links {
+    padding-left: 120px;
+    margin-top: 80px;
+    margin-bottom: 152px;
+    max-width: 208px;
+
+}
+.social-media {
+   
+    width: 208px;
+    height: 80px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+.social-links-svg {
+   flex-wrap: nowrap;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    width: 208px;
+    height: 40px;
 }
