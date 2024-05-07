@@ -331,16 +331,17 @@ img {
  }   
      
  .social-links-svg {
-   
     
-    flex-wrap: nowrap;
+    align-items: center;
+   flex-wrap: nowrap;
+   justify-content: center;
+   flex-direction: row;
    background-color: #4D5AE5;
    width: 40px;
    height: 40px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: row;
+   
+   
+  
    gap: 24px;
    border-radius: 50%;
    
