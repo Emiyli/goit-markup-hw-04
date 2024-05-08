@@ -48,6 +48,7 @@ img {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header-container {
@@ -79,6 +80,7 @@ img {
 .menu {
     display: flex;
     gap: 40px;  
+    color:#404bbf; 
    }
 
 .current {
@@ -96,6 +98,7 @@ img {
      width: 100%;
      height: 4px;
      margin-top: 20px;
+     
      }
 
 .menu-link:hover,
@@ -149,8 +152,7 @@ img {
 .hero-section {
    padding: 188px 0; 
    background: rgba(46, 47, 66, 0.7);
-   background-image: linear-gradient(to bottom,
-    rgba(46, 47, 66, 0.7),
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
     url(../images/hero\ people-office\ 1.jpg);
    background-size: cover;
@@ -158,6 +160,7 @@ img {
    max-width: 1440px;
    margin-left: auto;
    margin-right: auto;
+   background-position: center;
 }  
 
 
@@ -189,6 +192,7 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
       
 }
 .buy-now-btn:hover,
@@ -227,8 +231,8 @@ img {
      
 }
 .advantages-svg {
-    width: 264px;
-    height: 112px;
+    width: 64px;
+    height: 64px;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background: #f4f4fd;
@@ -258,6 +262,18 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px; 
+    background-color: #f4f4fd; 
+    border-radius: 4px;
+    border: 1px solid #8e8f99; 
+    margin-bottom: 8px; 
+
 }
 
 /*============Our Team STYLES============*/
@@ -330,24 +346,48 @@ img {
     display: block;
  }   
      
- .social-links-svg {
-    
+
+ .social-links-experts {
+    display: flex;
     align-items: center;
+    gap: 24px;
+ }
+ .experts-social {
+    width: 40px;
+    height: 40px;
+    
+ }
+ .experts-svg {
+   
+   /* width: 232px;*/
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+   
+
+ }
+ .social-links-svg {
+   
    flex-wrap: nowrap;
    justify-content: center;
    flex-direction: row;
    background-color: #4D5AE5;
-   width: 40px;
-   height: 40px;
    
-   
-  
-   gap: 24px;
+   display: inline-block;
+  gap: 24px;
    border-radius: 50%;
-   
+   position: relative;
  }
  
-    
+ .social-links-svg use {
+    height:16px;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}   
  
 /*============Portfolio STYLES============*/
 
@@ -469,19 +509,21 @@ img {
 
 }
 .social-media {
-   
+   padding-right: 704px;
+   padding-left: 120px;
+   padding-top: 80px;
     width: 208px;
     height: 80px;
     letter-spacing: 0.02em;
     color: #fff;
 }
-.social-links-svg {
+.social-links-footer-svg {
    flex-wrap: nowrap;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
     gap: 16px;
-    width: 208px;
+    width: 40px;
     height: 40px;
 }
