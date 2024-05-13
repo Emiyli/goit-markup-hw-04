@@ -135,22 +135,7 @@ img {
     background: #404bbf;
      display: block;
    }
-
-  
-
- /*.menu-link-studio .current ::after {
-     display: block;
-     content: '';
-     position: absolute;
-     left: 0;
-     bottom: -1px;
-     background-color: #404bbf;
-     border-radius: 2px;
-     width: 100%;
-     height: 4px;
-     margin-top: 20px;
-
-    }*/
+ 
 
 .contacts {
     font-style: normal;
