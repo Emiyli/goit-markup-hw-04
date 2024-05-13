@@ -588,14 +588,14 @@ img {
   color: #ffffff;
 } 
 
-.social-links {
+/*.social-links {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     border-radius: 50%;
     background-color: #4d5ae5;  
-}
+}*/
 .footer-icon {
     fill: #f4f4fd;
   }
