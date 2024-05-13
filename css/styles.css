@@ -512,7 +512,7 @@ img {
     background: #2e2f42;
     /*padding-top: 120px; */
 }
-.footer-container {
+.page-footer-container {
     display: flex;
     align-items: baseline;
   }
@@ -544,6 +544,7 @@ img {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px; 
+    margin-right: 120px;
     
 }
 .footer-page-logo {
