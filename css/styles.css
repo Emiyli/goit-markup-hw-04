@@ -417,6 +417,9 @@ img {
 }
 
 .social-links-svg {
+    display: block;
+    align-items: center;
+    justify-content: center;
     fill: #f4f4fd; 
 }
 
