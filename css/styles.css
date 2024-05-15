@@ -402,7 +402,7 @@ img {
     display: flex;
     gap: 24px;
     justify-content: center;
-    margin: 8px 16px; 
+   /* margin: 8px 16px; */
     align-items: center;
     width: 100%;
 }
